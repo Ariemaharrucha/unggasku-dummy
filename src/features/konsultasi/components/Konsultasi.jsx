@@ -188,7 +188,7 @@ export const Konsultasi = () => {
             ) : (
               <div className="flex items-center justify-center h-full text-gray-500">
                 <p className="text-xl font-medium">
-                  Pilih user untuk mulai chat
+                  Pilih dokter untuk mulai chat
                 </p>
               </div>
             )}
