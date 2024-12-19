@@ -11,6 +11,7 @@ import useUser from "../../stores/useStore.js";
 import { AiOutlineLike } from "react-icons/ai";
 import image_dokter1 from "../../assets/Images/layanan/dr_card1.jpeg";
 import image_dokter3 from "../../assets/Images/layanan/dr_card3.jpeg";
+import fotoDokter from '../../assets/Images/layanan/Layanan_header.png'
 
 
 export const Layanan = () => {
@@ -99,7 +100,7 @@ export const Layanan = () => {
             <div className="overflow-hidden">
               <img
                 className="w-full h-full object-cover"
-                src="src\assets\Images\layanan\Layanan_header.png"
+                src={fotoDokter}
                 alt=""
               />
             </div>

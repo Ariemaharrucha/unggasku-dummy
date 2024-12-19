@@ -6,6 +6,7 @@ import artikel3 from "../../assets/Images/beranda/artikel_3.jpg";
 import { Link } from "react-router-dom";
 import { Layout } from "../../layouts/Layout.jsx";
 import { CardRekomendasi } from "../../components/shared/CardRekomendasi.jsx";
+import fotoAyam from '../../assets/Images/beranda/beranda-unggas.jpg'
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { format } from "date-fns";
@@ -110,7 +111,7 @@ export const Beranda = () => {
       <div className="md:min-h-screen flex items-center justify-center gap-x-5 md:py-8">
         <img
           className="w-[384px] h-[453px] md:block hidden"
-          src="src\assets\Images\beranda\beranda-unggas.jpg"
+          src={fotoAyam}
           alt=""
         />
         <div className="flex justify-center items-start flex-col gap-y-3 md:max-w-[50%] max-w-xl px-4">
